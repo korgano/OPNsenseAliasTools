@@ -1,0 +1,117 @@
+{
+  "geoip": {
+    "url": ""
+  },
+  "aliases": {
+    "alias": {
+      "66ea4c00-feec-469e-9a82-bf5cba0405a9": {
+        "enabled": "1",
+        "name": "Malware",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "1",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "Adblock IP address list - Malware"
+      },
+      "bogons": {
+        "enabled": "1",
+        "name": "bogons",
+        "type": "external",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "bogon networks (internal)"
+      },
+      "bogonsv6": {
+        "enabled": "1",
+        "name": "bogonsv6",
+        "type": "external",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "bogon networks IPv6 (internal)"
+      },
+      "virusprot": {
+        "enabled": "1",
+        "name": "virusprot",
+        "type": "external",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "overload table for rate limiting (internal)"
+      },
+      "sshlockout": {
+        "enabled": "1",
+        "name": "sshlockout",
+        "type": "external",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "abuse lockout table (internal)"
+      },
+      "__wan_network": {
+        "enabled": "1",
+        "name": "__wan_network",
+        "type": "internal",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "WAN net"
+      },
+      "__lan_network": {
+        "enabled": "1",
+        "name": "__lan_network",
+        "type": "internal",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "LAN net"
+      },
+      "__lo0_network": {
+        "enabled": "1",
+        "name": "__lo0_network",
+        "type": "internal",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "Loopback net"
+      },
+      "__opt1_network": {
+        "enabled": "1",
+        "name": "__opt1_network",
+        "type": "internal",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "OPT1 net"
+      }
+    }
+  }
+}
