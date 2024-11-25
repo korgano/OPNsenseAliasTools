@@ -22,6 +22,17 @@ Tools for generating OPNsense aliases populated with IP addresses from Pi-Hole c
 - It ADDS (appends) all the new aliases to the current list (no deletions, assuming you don't experience a uuid collision)
 - It then saves the new expanded list of aliases over the previously downloaded alias json file
 
+### What settings should I use for my CSV?
+The CSV requires the following format settings to ensure it runs properly:
+
+- Value Separator = Comma
+- Character Set = System
+- String (Value) Delimiter = Nothing
+
+To have muliple IP addresses in your `data` column, use spaces to separate the IP addresses. For example: `####.####.####.#### ####.####.####.####`
+
+CSVEdit is the recommended software for creating and updating the CSV file.
+
 ## How to use the block-list-scraper Scripts
 Originally made by me with AI assistance.
 
